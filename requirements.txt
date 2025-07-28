@@ -1,0 +1,19 @@
+# PDF parsing
+PyMuPDF==1.23.4
+
+# Semantic search
+sentence-transformers==2.2.2
+
+# Torch (CPU only version)
+torch==1.13.1+cpu
+numpy>=1.21.0
+scipy>=1.5.0
+
+# Progress bar
+tqdm>=4.62.0
+
+# Transformers (only if used inside sentence-transformers or otherwise)
+transformers>=4.21.0
+
+# Use this index for torch+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
